@@ -73,7 +73,7 @@ function draw() {
 
   camera.x = trex.x
   gameOver.position.x = restart.position.x = camera.x
-  background("skyblue")
+  background("magenta")
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
